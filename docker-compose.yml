@@ -9,17 +9,7 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      #      - ./src:/season/src:delegated
-      #      - ./pages:/season/pages:delegated
-      #      - ./styles:/season/styles:delegated
-      #      - ./next.config.js:/season/next.config.js:delegated
-      #      - ./next-env.d.ts:/season/next-env.d.ts:delegated
-      #      - ./global_type.d.ts:/season/global_type.d.ts:delegated
-      #      - ./tsconfig.json:/season/tsconfig.json:delegated
-      #      - ./.eslintrc.json:/season/.eslintrc.json:delegated
-      #      - ./.prettierignore:/season/.prettierignore:delegated
-      #      - ./.prettierrc:/season/.prettierrc:delegated
       - ./:/react/:delegated
       - /node_modules
     environment:
-      - WATCHPACK_POLLING=true # for Windows
+      - WATCHPACK_POLLING=true
