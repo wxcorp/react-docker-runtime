@@ -1,0 +1,14 @@
+**/.git
+**/.vscode
+**/.idea
+**/.DS_Store
+**/.next
+**/node_modules
+package-lock.json
+yarn-error.log
+
+# Docker's
+Dockerfile
+.dockerignore
+docker-compose.yml
+docker-env
